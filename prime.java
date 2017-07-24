@@ -7,7 +7,7 @@ static public void main(String args[])
 Scanner scan=new Scanner(System.in);
 int a=scan.nextInt();
 int flag=0;
-for(int i=0;i<n/2;i++)
+for(int i=0;i<a/2;i++)
 {
 if(a%2==0)
 {
