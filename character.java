@@ -6,7 +6,8 @@ static public void main(String args[])
 {
 Scanner scan=new Scanner(System.in);
 String s=scan.nextLine();
-char c[]=s.toCharArray();
+  String b=s.replaceAll(" ","");
+char c[]=b.toCharArray();
 int count=0;
 int len=c.length;
 for(int i=0;i<len;i++)
